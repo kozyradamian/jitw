@@ -1,0 +1,37 @@
+body{
+	background:grey;
+	width: 900px;
+	margin: auto;
+	font: 8pt tahoma;	
+	letter-spacing: 1mm
+}
+
+h1{	
+
+	color:yellow;
+	align:justify;
+	margin-left:15px;
+	width:350px;
+	border-right:1px solid #B0B0B0;
+	letter-spacing: 5mm
+}
+h2{
+	color:blue;
+	align:justify;
+	margin-left:15px;
+	width:350px;
+	border-right:1px solid #B0B0B0;
+}
+h3{
+	color:red;
+	align:justify;
+	margin-left:15px;
+	width:350px;
+	border-right:1px solid #B0B0B0;
+}
+p{
+	text-indent: 3cm
+}
+
+
+

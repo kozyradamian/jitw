@@ -1,0 +1,23 @@
+cabal test
+quota -s
+rm -rg ~/.cache
+visual code .
+App.hs
+scotty 3000
+localhost:3000/123
+create-student.sh
+load host:3000/student
+GET student/123
+PVT student/123
+DELETE student/123
+
+Scotty
+Student/:id
+param "id"
+idd <- param "id"
+body
+
+
+cabal install --only-dependencies --enable-test
+
+

@@ -1,0 +1,77 @@
+#container{
+	background:white;
+	width:1080px;
+	position:relative;
+	margin-left:0;
+	margin-right:0;
+}
+#tresc {
+    max-width:1080px;
+    margin-left:0px;
+    overflow: auto;
+    text-align: left;
+    min-height:1080px;
+    height: 100%;
+    background-color: lightgrey;
+}
+.menu {
+display : none;
+}
+#menu {
+display : none;
+}
+
+table{
+    border:4px solid black;
+}
+
+table td {
+   text-transform: uppercase;
+   border: 1px solid black;
+   padding: 5px;
+   color: white;
+}
+td.inny_wyglad {
+   background-color: white;
+   vertical-align: top;
+   font-weight: bold;
+   color: black;
+}
+th.inny_wyglad {
+   background-color: white;
+   vertical-align: top;
+   font-weight: bold;
+   color: black;
+}
+td.inny_wyglad1 {
+   background-color: white;
+   vertical-align: top;
+   font-weight: bold;
+   color: black;
+}
+img{ 
+	display: none;
+}
+
+.lighttext{
+	color: black;
+}
+a{
+	color: black;
+}
+h1 {
+font-size: 18px; color:#000; font-weight: bold; margin: 10px 0 10px 0;
+}
+
+h2 {
+    color: black;
+}
+
+h3{
+    color:black;
+}
+
+p:first-letter{
+    color: black;
+    font-size: 100%;
+}

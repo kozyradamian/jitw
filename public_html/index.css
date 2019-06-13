@@ -1,0 +1,117 @@
+#container{
+	background:white;
+	width:800px;
+	position:relative;
+	margin-left:50px;
+	margin-right:50px;
+}
+.menu{	
+	float: left;
+	top:0px;
+	position:fixed;
+	width: 148px;
+	height: 100%;
+	background-color:lightgray;
+	text-align: center;
+	font-size: 12px;
+	border-right:6px solid darkred;
+	padding:10px;
+	height: 100%;
+
+
+}
+
+#tresc {
+  max-width:626px;
+  margin-left:174px;
+  overflow: auto;
+  text-align: left;
+  min-height:1080px;
+  height: 100%;
+  background-color: lightgrey;
+}
+.option{
+	text-align: center;	
+	font-size: 12px; 
+	padding: 10px;
+	border: 1px solid darkred;
+	background-color:gray;
+	cursor:default;
+}
+.option:hover{
+	background-color: orange;
+}
+
+body{	
+  background: #2a2a2a none repeat scroll 0 0;
+	width:1080px;
+	margin:0;
+	padding:0;
+	font: 8pt tahoma;	
+	letter-spacing: 1mm
+}
+
+
+h1{	
+	width: 100%;
+	color:yellow;
+	font: 18pt tahoma;
+	background:darkred;
+	text-align: center;
+	letter-spacing: 5mm
+}
+h2{
+	color:blue;
+	text-align:justify;
+	margin-left:15px;
+	width:350px;
+	border-right:1px solid #B0B0B0;
+}
+h3{
+	color:red;
+	text-align:justify;
+	margin-left:15px;
+	width:350px;
+	border-right:1px solid #B0B0B0;
+}
+p{
+	text-indent: 3cm
+}
+p:first-letter {
+    color:darkred;
+    font-size: 150%;
+}
+a {
+    cursor: default;
+}
+
+
+div.menu1{
+	display:none;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+@media screen and (max-width:1000px){
+	div.menu{
+		display: none;	
+	}
+	div.menu1{
+		display: block;
+		position: fixed;
+		text-align: center;
+		float:left;
+		width: auto;
+		z-index: 100;
+	}
+	div.menu1:hover + div.menu{
+		display: block;
+	}
+	div.menu:hover{
+		display: block;
+	}	
+}	
+}
+
+
+
